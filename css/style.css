@@ -1,0 +1,101 @@
+.animated-book {
+    animation: book 1s linear alternate infinite;   
+}
+
+
+@keyframes book {
+    from {
+        transform: translateY(20px);
+    }
+}
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo h2 {
+    margin: 10px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+header h1 {
+    font-size: 40px;
+    font-weight: bold !important;
+}
+
+.hero {
+    background: black;
+    color: white !important;
+}
+.hero * {
+    color: white !important;
+}
+
+.button-buy {
+    background-color: rgb(160, 25, 25);
+    width: 100%;
+    max-width: 500px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.button-buy:hover {
+    background-color: rgb(212, 0, 0);
+}
+
+
+.counter {
+    background-color: black;
+    font-weight: bolder !important;
+}
+
+.counter p {
+    font-weight: bolder !important;
+    text-transform: uppercase;
+    font-size: 14px !important;
+}
+
+.container h2 {
+    font-weight: bold !important;
+    text-transform: capitalize;
+}
+
+.navbar-default {
+    display: none;
+}
+
+.whats {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    padding: 30px;
+}
+
+.whats li {
+    list-style:circle;
+    margin-bottom: 30px;
+    padding: 0px;
+    text-align: left;
+    font-size: 25px;
+    margin: 20px;
+    max-width: 700px;
+}
+
+.reviews {
+    background: black;
+    color: white !important;
+}
+.reviews * {
+    color: white;
+}
+
+.author {
+    background: black;
+}
+
+.author * {
+    color: white;
+}
